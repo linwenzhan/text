@@ -1,0 +1,306 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.nav{
+	width: 100%;
+	height:70px;
+	position: fixed;
+	background:white;
+	z-index:5;
+}
+.navMa{
+	width: 1280px;
+	height:70px;
+	margin: 0 auto;
+}
+.navMa-one{
+	line-height:70px;
+	height:70px;
+	float: left;
+}
+.navMa-one-img{
+	width: 35px;
+	height: 30px;
+}
+.navMa-two{
+	width: 665px;
+	height:70px;
+	text-align: center;
+	line-height: 70px;
+	float: right;
+}
+.navMa-two-ul li{
+	width: 100px;
+	height: 70px;
+	float: left;
+	font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.navMa-two-ul li a{
+	color:#666;
+}
+#gM{
+	padding-left:30px;
+	font-size: 14px;
+	color:#808080;
+}
+#vM{
+	width: 100%;
+	height: 100%;
+	margin-top:-70px;
+}
+.navDis{
+	border-top: 1px solid #dae1e6;
+	width: 100%;
+	height:130px;
+	position: fixed;
+	background:white;
+	top:70px;
+	z-index:4;
+	display: none;
+}
+.navDis-con{
+	width: 60%;
+	height:100px;
+	text-align: right;
+	margin: 0 auto;
+	padding-top: 16px;
+}
+.navDisR{
+	width: 110px;
+	text-align: center;
+	float:right;
+	line-height:100%;
+}
+.navDisIm{
+	cursor: pointer;
+	vertical-align: middle;
+	padding-bottom: 15px;
+}
+.navDisTx{
+	font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(102, 102, 102);
+}
+.nav2{
+	padding-bottom: 12px;
+}
+.nav3{
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+.nav4{
+	padding-top: 17px;
+	padding-bottom: 16px;
+}
+.nav5{
+	padding-bottom: 17px;
+}
+.nav6{
+	padding-top:22px;
+	padding-bottom:32px;
+}
+#navDm{
+	width: 100px;
+	height:70px;
+	background: white;
+	margin-left:-10px;
+	text-align: center;
+}
+#navDm div:first-child{
+	margin-top:-20px;
+	height: 25px;
+}
+#navDm div img{
+	width: 15%;
+}
+#navDm div a{
+	color: #303233;
+    font-size: 12px;
+    font-weight: 200;
+    white-space: nowrap;
+    line-height: 1;
+}
+.con-Sp{
+	width: 100%;
+	height:50px;
+	text-align: center;
+	display: inline-block;
+	font-size:35px;
+}
+.con-iM{
+	width: 1280px;
+	height: 285px;
+	margin: 0 auto;
+}
+.con-Sp2{
+	width: 100%;
+	height:50px;
+	text-align: center;
+	display: inline-block;
+	font-size:35px;
+	margin-bottom:10px;
+}
+.Sp3{
+	margin-top:20px;
+}
+.con-iM2{
+	display: block;
+	width:68%;
+	height:56px;
+	margin: 0 auto;
+	font-size:18px;
+	color:#414141;
+	text-align: center;
+}
+#rsU{
+	width: 80%;
+	display: block;
+	margin:0 auto;
+}
+.lon{
+	width:80%;
+	height:450px;
+	text-align: center;
+	margin:0 auto;
+	overflow: hidden;
+}
+.lon ul li {
+	width:32%;
+	height:70%;
+	float: left;
+	border:1px solid #d8d8d8;
+}
+.lon ul li img{
+	width:100%;
+	float: left;
+}
+.lon ul li a{
+	width:100%;
+	height:40px;
+	padding-top:20px;
+	font-size:15px;
+	text-align: center;
+	float: left;
+	color:#000;
+}
+.lon ul li p{
+	padding-top:0;
+	padding-bottom:20px;
+	width:100%;
+	font-size:12px;
+	text-align: center;
+	color:#9b9b9b;
+}
+.footerTop{
+	width: 100%;
+	height:315px;
+	background: #f4f4f4;
+	margin-top:20px;
+}
+.footer{
+	width: 80%;
+	height:90%;
+	margin: 0 auto;
+	padding-top:40px;
+}
+.footer1{
+	width: 100%;
+	height:130px;
+	position: relative;
+	margin-bottom:20px;
+}
+.footer1Im{
+	width:67px;
+	height:55px;
+    vertical-align: top;
+    margin-top:40px;
+    float: left;
+    margin-right: 180px;
+}
+.footer1Vl{
+	width: 870px;
+	height: 130px;
+	float: left;
+}
+.footCf{
+	float: left;
+	margin-right:190px;
+}
+.tit{
+	font-size: 16px;
+    color: #6e6e6e;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.footCf div p{
+	height:30px;
+	line-height: 30px;
+	text-align: left;
+}
+.footCf div p a{
+	font-size:12px;
+	color:#686868;
+}
+.fotwie{
+	float: right;
+	text-align: center;
+	font-size:12px ;
+	color:#686868;
+}
+.fothm{
+	position:absolute;
+	left:71%;
+}
+.fothm p:first-child{
+	font-size: 36px;
+	color: #333333;
+	letter-spacing: 1px;
+    font-weight: bold;
+}
+.fothm p:last-child{
+	margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+.fotjDo{
+	margin-top: 40px;
+	width: 100%;
+	height:40px;
+	text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    padding-bottom: 20px;
+    color: #6e6e6e;
+}
+.fotjDo a{
+	color: #6e6e6e;
+}
+.fotjDo a img{
+	width: 15px;
+	margin-bottom:-2px;
+    margin-right: 4px;
+}
+.fotjDo a span{
+	padding-right: 2px;
+}
+.fotpm{
+	width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #9e9e9e;
+    padding-bottom: 30px;
+    line-height: 20px
+}
+.fotpm span{
+	margin: 0 10px;
+}
+.fotpm span a{
+	color: #9e9e9e;
+}
+    
